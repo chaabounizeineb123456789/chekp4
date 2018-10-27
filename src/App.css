@@ -1,0 +1,110 @@
+.red {
+  background-color: #daecf3;
+  border-radius: 5%;
+}
+.blue {
+  background-color: #fe424d;
+  border-radius: 5%;
+}
+.green {
+  background-color:#1aa6b7;
+border-radius: 5%;
+}
+.black {
+  background-color:#022d41;
+border-radius: 5%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*.red {
+  color:tomato;
+}
+.blue {
+  color:blue;
+}*/
+.app-wolf{
+  display: inline-block;
+}
+.box {
+  display: inline-block;
+  width: 23%
+
+}
+.box img {
+  width:100% !important;
+  -webkit-user-select:none;
+  cursor:zoom-in;
+ display: inline-block;
+}
+.log {
+  display: inline-block;
+ /*background-color: tomato;*/
+}
+
+h4{
+  display: inline-block;
+}
+
+button{
+  border-radius:15%; 
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+}
+p{
+  display: inline-block;
+}
+.image{
+  background-image:url(wolf.jpg); 
+}
+
+.blockContent {
+  display: inline-block;
+  width: 25%;
+  height: 390px;
+  vertical-align: top;
+}
+.row{
+  display: inline-block;
+  width: 25%;
+  height: 390px;
+  vertical-align: top;
+}
+.chiffre{
+  font-size: 14px;
+  display: inline-block;
+  width: 20%;
+}
